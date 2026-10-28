@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — 2026-10-29
+- Copertura DNS ampliata per giochi, app e navigazione: StevenBlack insieme a HaGeZi Normal, già incluse nell’APK. Lo snapshot produce 201.381 regole compatte e copre 163.267 domini HaGeZi prima non coperti; sono dati delle liste, non annunci rimossi.
+- Aggiornamenti automatici opportunistici mentre la VPN è attiva, dopo circa 24 ore dall’ultimo successo. In caso di errore nuovo tentativo non prima di 6 ore; aggiornamento manuale disponibile. Nessun nuovo allarme, permesso o passaggio nel setup.
+- Le due fonti devono essere entrambe valide prima della sostituzione atomica. Download falliti o incompleti conservano la lista precedente; la vecchia cache StevenBlack non riduce la nuova copertura inclusa.
+- Ricaricamento delle regole separato dal traffico DNS, con richieste accorpate e nuovi tentativi in caso di errore. Budget combinato di domini e caratteri per contenere i picchi di memoria.
+- Caricamento più leggero: i nomi ASCII non attraversano la conversione IDN e la lettura delle liste evita espressioni regolari per ogni riga. I domini internazionali restano supportati.
+- Aiuto e privacy in italiano, inglese e spagnolo spiegano i limiti DNS: nessuna promessa di rimozione delle inserzioni integrate di YouTube o Instagram, nemmeno aprendo il sito con la sola VPN.
+- Home, setup, temi, lingue, regole, esclusioni e statistiche conservati. Dati HaGeZi, licenza GPLv3 e metadati delle fonti disponibili separatamente nella distribuzione pubblica.
+
 ## 0.3.0 — 2026-10-28
 - Pausa diventa **Pause**: nuovo simbolo, icona adattiva e monocromatica Android, wordmark originale e 22 icone SVG coordinate.
 - Interfaccia completa in italiano, inglese e spagnolo, con numeri, date, grafico, notifiche e messaggi localizzati. Lingua automatica o scelta manuale; integrazione con la lingua per app da Android 13.

@@ -1,4 +1,4 @@
-# Pause — brand kit 0.3.0
+# Pause — brand kit 0.4.0
 
 Marchio originale: verde profondo, lime e due barre morbide di pausa. Il nome pubblico è **Pause**; il package Android storico resta invariato per gli aggiornamenti.
 
