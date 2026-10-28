@@ -1,0 +1,3 @@
+# Original list data must retain the bytes referenced by sources.json.
+filters/*.txt text eol=lf
+filters/*.json text eol=lf
