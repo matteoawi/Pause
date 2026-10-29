@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.1 — 2026-10-29
+- Il tutorial iniziale spiega le limitazioni in background e come evitare che risparmio batteria e pulizia memoria interrompano Pause e gli aggiornamenti delle liste.
+- Guida facoltativa raggiungibile anche da Impostazioni e Aiuto, con istruzioni per Samsung, Xiaomi/Redmi/POCO e Pixel e indicazioni generali per gli altri Android. Tutorial rivedibile dalla guida.
+- Accesso alla scheda Android di Pause. Su Samsung, collegamento alle app mai in sospensione con ripiego sulla scheda dell’app se non disponibile. Nessuna modifica automatica o nuovo permesso.
+- Testi e novità aggiornati in italiano, inglese e spagnolo. Filtro DNS, aggiornamenti automatici, preferenze, regole e statistiche conservati; nessuna garanzia di ripristino automatico dopo la chiusura del processo.
+
 ## 0.4.0 — 2026-10-29
 - Copertura DNS ampliata per giochi, app e navigazione: StevenBlack insieme a HaGeZi Normal, già incluse nell’APK. Lo snapshot produce 201.381 regole compatte e copre 163.267 domini HaGeZi prima non coperti; sono dati delle liste, non annunci rimossi.
 - Aggiornamenti automatici opportunistici mentre la VPN è attiva, dopo circa 24 ore dall’ultimo successo. In caso di errore nuovo tentativo non prima di 6 ore; aggiornamento manuale disponibile. Nessun nuovo allarme, permesso o passaggio nel setup.

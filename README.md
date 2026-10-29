@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/SCARICA_PAUSE-APK_ANDROID-176B53?style=for-the-badge&amp;labelColor=122F25" alt="Scarica Pause per Android" height="40">
   </a>
   <br>
-  <sub>Android 8 o successivo · Versione 0.4.0 · Senza root o account</sub>
+  <sub>Android 8 o successivo · Versione 0.4.1 · Senza root o account</sub>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 ### Semplice da usare. Chiara su quello che fa.
 
 - **Un comando per iniziare.** Attiva la protezione o mettila in pausa dalla Home.
-- **Copertura più ampia, stesso setup.** StevenBlack e HaGeZi Normal già incluse. Le liste si aggiornano anche automaticamente mentre la protezione è attiva.
+- **Liste curate, aggiornate automaticamente.** StevenBlack e HaGeZi Normal già incluse. Le liste si aggiornano anche automaticamente mentre la protezione è attiva.
 - **Il risultato si vede.** Totale, attività di oggi, ultimi sette giorni e app di origine quando Android le identifica. I numeri contano richieste bloccate, non annunci rimossi.
 - **Come piace a te.** Italiano, inglese e spagnolo; tema chiaro, scuro o come il telefono. Animazioni dei contatori facoltative.
 - **Le opzioni al posto giusto.** Esclusioni e aiuto nelle impostazioni; regole sui domini e diagnostica in Avanzate.
@@ -38,6 +38,8 @@
 1. **Scarica e installa.** Apri [Pause.apk](https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk) sul telefono. Se Android lo richiede, consenti l’installazione alla fonte con cui hai aperto il file.
 2. **Consenti e attiva.** Leggi la breve spiegazione iniziale e accetta il permesso VPN nella schermata Android.
 3. **Torna al gioco.** Chiudilo completamente e riaprilo: gli annunci già scaricati potrebbero restare visibili. Per fermare il filtro, tocca **Metti in pausa**.
+
+**Per mantenerla attiva:** il tutorial include **Protezione in background**, disponibile anche nelle impostazioni. Spiega batteria e pulizia memoria, con indicazioni per Samsung, Xiaomi/Redmi/POCO, Pixel e altri Android. I collegamenti aprono le impostazioni del telefono; scegli tu cosa modificare. Se Android chiude Pause, filtro e aggiornamenti si fermano finché non riattivi la protezione.
 
 > Pause usa un filtro DNS: alcuni annunci, comprese inserzioni integrate di YouTube e Instagram, possono restare. Anche i video premio possono essere bloccati.
 
