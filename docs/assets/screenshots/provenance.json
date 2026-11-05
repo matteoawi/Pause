@@ -40,5 +40,19 @@
     "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
     "originalSha256": "18ab25171020641835af37a768c3bed240dbbe0a24041f806f6d90bbc3cb39cc",
     "sha256": "42aa774594776f70b5993f2377379ecc64647bcc47991aacd33cf9f5fa1f1c85"
+  },
+  {
+    "asset": "assets/screenshots/home-real-dark.webp",
+    "source": "User-supplied Pause screenshot, November 5, 2026; shared for public site/readme use. App version not independently read from this image.",
+    "transform": "Crop system status/navigation bars only; proportional resize and WebP encoding. No app pixels, text or counters retouched.",
+    "originalSha256": "06b54268e8810de6eda4c320b5b518bc92011d27720df8f8b5b7259d9189d8a5",
+    "sha256": "efdfc9069b300026dbf193b49f95bb0baf7b2156794459a60ba49a9ef6e0601d",
+    "size": [
+      540,
+      1113
+    ],
+    "visibleTotalBlocks": 264414,
+    "visibleTodayBlocks": 17588,
+    "measurement": "Blocked requests, not individual ads removed; one user screenshot, not universal results."
   }
 ]

@@ -13,4 +13,4 @@ Third-party materials retain their own licenses:
 
 Android, Gradle/AGP and JUnit build dependencies retain their upstream licenses. Their names don't imply endorsement.
 
-Screenshots come from Pause on a disposable Android emulator. They illustrate the UI, not universal blocking or ads removed. No private phone diagnostics or personal usage statistics are published.
+The featured home screenshot was supplied by the user for publication and includes their real blocked-request statistics. Other screens come from a disposable Android emulator. Counts are requests, not ads removed; these screenshots do not prove universal results. No other private phone diagnostics are published.

@@ -4,7 +4,7 @@
 <p align="center">A simple, free ad blocker for Android.<br>Turn it on. Get back to your games, apps and browsing.</p>
 
 <p align="center"><a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk"><img src="https://img.shields.io/badge/Download_Pause-Android_APK-176B53?style=for-the-badge&amp;labelColor=122F25" height="42" alt="Download Pause for Android"></a></p>
-<p align="center"><strong>Android 8+ · Version 0.4.2 · Free &amp; open source</strong><br>No account. No subscription. No root.</p>
+<p align="center"><strong>Android 8+ · Version 0.4.3 · Free &amp; open source</strong><br>No account. No subscription. No root.</p>
 <p align="center"><a href="https://matteoawi.github.io/Pause/">Visit the website</a> · <a href="https://github.com/matteoawi/Pause/releases/latest">Release notes &amp; checksum</a> · <a href="#get-started">Get started</a> · <a href="SECURITY.md">Security</a></p>
 
 ## Made for my own phone. Shared for yours.
@@ -16,7 +16,7 @@ It worked well for the games I tried. Now the app and its code are here for anyo
 ## A little more breathing room
 
 <table><tr>
-<td width="33%" align="center"><img src="docs/assets/screenshots/home-light.webp" width="230" alt="Home screen with protection controls and real request counts"></td>
+<td width="33%" align="center"><img src="docs/assets/screenshots/home-real-dark.webp" width="230" alt="User screenshot: active protection and 264,414 blocked requests"></td>
 <td width="33%" align="center"><img src="docs/assets/screenshots/personalize-dark.webp" width="230" alt="Dark theme with language and appearance choices"></td>
 <td width="33%" align="center"><img src="docs/assets/screenshots/background-light.webp" width="230" alt="Guide to keep Pause running in the background"></td>
 </tr><tr><td align="center"><strong>One tap to start</strong></td><td align="center"><strong>Make it yours</strong></td><td align="center"><strong>Help when you need it</strong></td></tr></table>
@@ -27,7 +27,7 @@ It worked well for the games I tried. Now the app and its code are here for anyo
 - **Your phone, your choices.** Light or dark, English/Italian/Spanish, and apps you can leave out of protection.
 - **Simple on the surface.** Extra controls stay in Advanced, ready if you need them.
 
-Screenshots are from the app on an Android emulator. Counts measure blocked requests, **not individual ads removed**.
+The home screenshot was shared by a real user; the other screens come from an Android emulator. Counts measure blocked requests, **not individual ads removed**. These are one person’s results, not a guarantee for every device.
 
 <details><summary>More screenshots: setup, settings and privacy</summary>
 
@@ -39,11 +39,13 @@ Screenshots are from the app on an Android emulator. Counts measure blocked requ
 
 1. **[Download the APK](https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk)** and open it on your Android phone. If asked, allow installation from the app you used to open it. Keep Android's security checks enabled.
 2. **Turn on protection.** Open Pause and accept Android's VPN prompt.
-3. **Go back to your apps.** Fully close and reopen your game; ads already downloaded may remain.
+3. **Go back to your apps.** After turning protection on, fully close your game and reopen it. This can help with previously loaded ads; some may still remain.
 
 The optional background guide helps with Samsung, Xiaomi/Redmi/POCO, Pixel and other phones. If Android closes Pause, protection and list updates stop until you turn it on again.
 
 To update the app, install the new official APK over your existing copy. Your settings and statistics stay. Share the [direct download link](https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk) or use **Settings → Share Pause**.
+
+**Want to watch a reward video?** Tap **Pause protection**, return to the game and watch it, then **turn protection back on**. If the game doesn't retry the video, fully close and reopen it. The reward depends on the game.
 
 ## Your trust matters
 

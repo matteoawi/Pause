@@ -3,7 +3,7 @@
     <string name="settings">Impostazioni</string>
     <string name="back">Indietro</string>
     <string name="home_off_title">Meno pubblicità. Più gioco.</string>
-    <string name="home_off_body">Attiva la protezione, poi torna alle tue app.</string>
+    <string name="home_off_body">Attiva la protezione, poi chiudi completamente e riapri il gioco.</string>
     <string name="home_on_title">La protezione è attiva.</string>
     <string name="home_on_body">Goditi le tue app. Pause lavora in background.</string>
     <string name="home_starting_title">Attivazione in corso…</string>
@@ -79,11 +79,11 @@
     <string name="about">Informazioni</string>
     <string name="version">Versione %1$s</string>
     <string name="help_ads_title">Vedi ancora pubblicità?</string>
-    <string name="help_ads_body">Verifica che Pause sia attiva, poi chiudi e riapri l’app o ricarica il sito. Gli annunci già scaricati possono restare visibili.</string>
+    <string name="help_ads_body">Controlla che la protezione sia attiva. Chiudi completamente il gioco e riaprilo, oppure ricarica il sito. Può aiutare con gli annunci caricati prima; alcuni possono comunque restare.</string>
     <string name="help_app_title">Un’app non si apre?</string>
     <string name="help_app_body">Metti in pausa la protezione e riprova. Se l’app torna a funzionare, puoi escluderla dal filtro.</string>
     <string name="help_prizes_title">Un video premio non parte?</string>
-    <string name="help_prizes_body">Il filtro può bloccare anche i video che danno ricompense. Per guardarli, metti in pausa la protezione; la ricompensa dipende dal gioco.</string>
+    <string name="help_prizes_body">Metti in pausa la protezione, torna al gioco e guarda il video premio. Poi riattiva la protezione. Se il video non riparte, chiudi e riapri il gioco. La ricompensa dipende dal gioco.</string>
     <string name="help_limits_title">Cosa aspettarti</string>
     <string name="help_limits_body">Pause riduce gli annunci in molti giochi, app e siti. Alcuni possono restare, soprattutto su YouTube e Instagram. Un gioco può anche mostrare una finestra vuota o attendere un annuncio.</string>
     <string name="manage_exclusions">Scegli un’app da escludere</string>
@@ -134,7 +134,7 @@
     <string name="allowed_saved">Dominio consentito</string>
     <string name="about_body">Creata per il mio telefono. Condivisa con tutti. Pause aiuta a ridurre le pubblicità, senza account o abbonamenti.</string>
     <string name="whats_new">Novità</string>
-    <string name="whats_new_body">Avvio più chiaro, spiegazioni brevi e aiuto più semplice. Stessa protezione, aggiornamenti automatici delle liste e impostazioni personali.</string>
+    <string name="whats_new_body">Video premio più chiari: metti in pausa, guarda il video e riattiva la protezione. L’aiuto spiega anche di riaprire il gioco dopo l’attivazione. Impostazioni e aggiornamenti automatici restano invariati.</string>
     <string name="licenses">Licenze e fonti</string>
     <string name="licenses_summary">StevenBlack, HaGeZi Normal e licenze delle liste</string>
     <string name="licenses_note">La lista StevenBlack conserva le attribuzioni delle fonti. HaGeZi Normal è distribuita come dati separati con licenza GPLv3; sorgente originale e licenza sono disponibili su github.com/matteoawi/Pause/tree/master/filters.</string>

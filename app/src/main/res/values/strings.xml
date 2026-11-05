@@ -3,7 +3,7 @@
     <string name="settings">Settings</string>
     <string name="back">Back</string>
     <string name="home_off_title">Fewer ads. More play.</string>
-    <string name="home_off_body">Turn on protection, then go back to your apps.</string>
+    <string name="home_off_body">Turn on protection, then fully close and reopen your game.</string>
     <string name="home_on_title">Protection is on.</string>
     <string name="home_on_body">Enjoy your apps. Pause is working in the background.</string>
     <string name="home_starting_title">Turning on protection…</string>
@@ -79,11 +79,11 @@
     <string name="about">About</string>
     <string name="version">Version %1$s</string>
     <string name="help_ads_title">Still seeing ads?</string>
-    <string name="help_ads_body">Check that Pause is on, then reopen the app or reload the website. Ads already downloaded may still appear.</string>
+    <string name="help_ads_body">Check that protection is on. Fully close the game and reopen it, or reload the website. This can help with ads loaded earlier; some may still remain.</string>
     <string name="help_app_title">An app will not open?</string>
     <string name="help_app_body">Pause protection and try again. If the app works again, you can exclude it from filtering.</string>
     <string name="help_prizes_title">A reward video will not play?</string>
-    <string name="help_prizes_body">Filtering may also block videos that give rewards. Pause protection to watch them; rewards depend on the game.</string>
+    <string name="help_prizes_body">Pause protection, return to the game and watch the reward video. Then turn protection back on. If the video does not retry, close and reopen the game. Rewards depend on the game.</string>
     <string name="help_limits_title">What to expect</string>
     <string name="help_limits_body">Pause reduces ads in many games, apps and websites. Some ads may remain, especially in YouTube and Instagram. A game may also show an empty ad window or wait for an ad.</string>
     <string name="manage_exclusions">Choose an app to exclude</string>
@@ -134,7 +134,7 @@
     <string name="allowed_saved">Domain allowed</string>
     <string name="about_body">Built for my own phone. Shared with everyone. Pause helps reduce ads without an account or subscription.</string>
     <string name="whats_new">What is new</string>
-    <string name="whats_new_body">Clearer setup, shorter explanations and simpler help. Same protection, automatic list updates and personal settings.</string>
+    <string name="whats_new_body">Clearer steps for reward videos: pause protection, watch, then turn it back on. Help also explains reopening games after activation. Your settings and automatic list updates stay the same.</string>
     <string name="licenses">Licenses and sources</string>
     <string name="licenses_summary">StevenBlack, HaGeZi Normal and list licenses</string>
     <string name="licenses_note">StevenBlack keeps its source attributions. HaGeZi Normal is distributed as separate list data under GPLv3; original source and license are available at github.com/matteoawi/Pause/tree/master/filters.</string>

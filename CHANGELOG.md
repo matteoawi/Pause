@@ -1,5 +1,12 @@
 # What's new
 
+## 0.4.3 — November 5, 2026
+
+- Clearer reward-video steps: pause protection, watch, then turn it back on.
+- Reopen games after enabling protection to help with preloaded ads; some may remain.
+- Website 1.1.0 and README feature a genuine user screenshot, with unchanged request counts. Android only.
+- Filtering, included lists, permissions and automatic list updates are unchanged.
+
 ## 0.4.2 — November 5, 2026
 
 - Clearer first steps, shorter home-screen explanations and simpler help in English, Italian and Spanish.
