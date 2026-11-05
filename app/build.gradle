@@ -1,0 +1,45 @@
+plugins { id 'com.android.application' }
+
+def appVersion = rootProject.file('VERSION').text.trim()
+def signingFile = rootProject.file('signing.properties')
+def signing = new Properties()
+if (signingFile.exists()) signingFile.withInputStream { signing.load(it) }
+
+android {
+    namespace 'it.matteo.pausa'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'it.matteo.pausa'
+        minSdk 26
+        targetSdk 36
+        versionCode 7
+        versionName appVersion
+        testInstrumentationRunner 'it.matteo.pausa.ProtectionRunner'
+    }
+    signingConfigs {
+        if (signingFile.exists()) {
+            release {
+                storeFile file(signing['storeFile'])
+                storePassword signing['storePassword']
+                keyAlias signing['keyAlias']
+                keyPassword signing['keyPassword']
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (signingFile.exists()) signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildFeatures { buildConfig true }
+    bundle { language { enableSplit = false } }
+    lint { abortOnError true }
+}
+
+dependencies { testImplementation 'junit:junit:4.13.2' }
+tasks.withType(Test).configureEach { maxHeapSize = '128m' }

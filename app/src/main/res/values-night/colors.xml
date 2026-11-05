@@ -1,0 +1,11 @@
+<resources>
+    <color name="pause_background">#101D17</color>
+    <color name="pause_surface">#1B2C23</color>
+    <color name="pause_ink">#EDF3EC</color>
+    <color name="pause_muted">#ACBBB2</color>
+    <color name="pause_primary">#B7E69A</color>
+    <color name="pause_on_primary">#14291C</color>
+    <color name="pause_line">#33473A</color>
+    <color name="pause_error">#FFB4A6</color>
+    <color name="pause_history">#80AD8C</color>
+</resources>

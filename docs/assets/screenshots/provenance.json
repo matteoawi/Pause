@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "assets/screenshots/home-light.webp",
+    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
+    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
+    "originalSha256": "6a8747d3d4cd06da53e3c38bb9c8e22586c9e76258bbf61ce73d62035335d4c3",
+    "sha256": "1df5168835ad3e5fe66c43508c38c52d5b38a2f40c340f370f85553e452c6338"
+  },
+  {
+    "asset": "assets/screenshots/personalize-dark.webp",
+    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
+    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
+    "originalSha256": "9797615686d6c12704c83e7d6f0094b3902f4c24c2585d1edf4d8c59d7acd09e",
+    "sha256": "fad02ff2e9d333267a3c6d579642d32f56d334bad7e75713f72e55e84655663f"
+  },
+  {
+    "asset": "assets/screenshots/background-light.webp",
+    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
+    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
+    "originalSha256": "b2b7e9a6bb4db84d77cadc3f759e675c1e129546e2105735ac35f50940379ec7",
+    "sha256": "a1e04d7cd666ffb5bedd23f27195c57a551d58b4bafe3cded2a0988f66cbb040"
+  },
+  {
+    "asset": "assets/screenshots/setup-light.webp",
+    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
+    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
+    "originalSha256": "f1db0ccb734eed26bbc245217295af9a28c5e9ec50cf3b5fb1d9e49faa4ba113",
+    "sha256": "82a9bff48ff39327a14910cfce004bdf0a5fa8ad326f9cbe9e3ea4f9fd8f5a99"
+  },
+  {
+    "asset": "assets/screenshots/settings-light.webp",
+    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
+    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
+    "originalSha256": "573474cc93d0e0b80cc48db2a96cd3ea40ac49ccff3408ab7310f735688a665f",
+    "sha256": "1b60476d5956b9c69dab397062d2f41933429cac4fb4a190a479ab7a989cc992"
+  },
+  {
+    "asset": "assets/screenshots/privacy-dark.webp",
+    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
+    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
+    "originalSha256": "18ab25171020641835af37a768c3bed240dbbe0a24041f806f6d90bbc3cb39cc",
+    "sha256": "42aa774594776f70b5993f2377379ecc64647bcc47991aacd33cf9f5fa1f1c85"
+  }
+]

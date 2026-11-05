@@ -1,3 +1,6 @@
 # Original list data must retain the bytes referenced by sources.json.
 filters/*.txt text eol=lf
 filters/*.json text eol=lf
+gradlew text eol=lf
+*.sh text eol=lf
+app/src/main/assets/*.txt text eol=lf

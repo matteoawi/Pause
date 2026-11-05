@@ -1,0 +1,21 @@
+{
+  "fetchedAt": "2026-10-28T22:56:18.102623+00:00",
+  "sources": {
+    "stevenblack": {
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "sha256": "e265a1a71968d2ad7c607d4730e76f2bce6c0e4a2a5c25b17b0625ebb3bd19ea",
+      "domains": 76147,
+      "asset": "hosts.txt"
+    },
+    "hagezi-normal": {
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/multi-onlydomains.txt",
+      "sha256": "24c08b140045c39e61b90cf97a891562a8af177deb88556ed5cebe26eb2abf01",
+      "domains": 172000,
+      "asset": "expanded-domains.txt",
+      "license": "GPL-3.0 (separate list data; original source and license supplied)"
+    }
+  },
+  "compactDomains": 201381,
+  "additionalDomains": 164287,
+  "additionalCoveredDomains": 163267
+}

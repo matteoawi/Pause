@@ -1,0 +1,17 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'it.matteo.pausa.probe'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'it.matteo.pausa.probe'
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName rootProject.file('VERSION').text.trim()
+        testInstrumentationRunner 'it.matteo.pausa.probe.ProbeRunner'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

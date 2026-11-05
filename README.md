@@ -1,83 +1,75 @@
-<p align="center">
-  <img src="assets/pause-banner.svg" alt="Pause — meno pubblicità, più gioco" width="100%">
-</p>
+<p align="center"><a href="https://matteoawi.github.io/Pause/"><img src="docs/assets/readme-banner.png" alt="Pause — Fewer ads. More play." width="100%"></a></p>
 
-<h1 align="center">Un po’ meno pubblicità.<br>Un po’ più gioco.</h1>
+<h1 align="center">Fewer ads. More play.</h1>
+<p align="center">A simple, free ad blocker for Android.<br>Turn it on. Get back to your games, apps and browsing.</p>
 
-<p align="center">
-  Pause riduce le richieste pubblicitarie in giochi, app e siti nel browser Android.<br>
-  Attiva la protezione e torna a quello che stavi facendo.
-</p>
+<p align="center"><a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk"><img src="https://img.shields.io/badge/Download_Pause-Android_APK-176B53?style=for-the-badge&amp;labelColor=122F25" height="42" alt="Download Pause for Android"></a></p>
+<p align="center"><strong>Android 8+ · Version 0.4.2 · Free &amp; open source</strong><br>No account. No subscription. No root.</p>
+<p align="center"><a href="https://matteoawi.github.io/Pause/">Visit the website</a> · <a href="https://github.com/matteoawi/Pause/releases/latest">Release notes &amp; checksum</a> · <a href="#get-started">Get started</a> · <a href="SECURITY.md">Security</a></p>
 
-<p align="center">
-  <a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk">
-    <img src="https://img.shields.io/badge/SCARICA_PAUSE-APK_ANDROID-176B53?style=for-the-badge&amp;labelColor=122F25" alt="Scarica Pause per Android" height="40">
-  </a>
-  <br>
-  <sub>Android 8 o successivo · Versione 0.4.1 · Senza root o account</sub>
-</p>
+## Made for my own phone. Shared for yours.
 
-<p align="center">
-  <a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk">Download diretto dell’APK</a>
-  · <a href="CHANGELOG.md">Novità</a>
-  · <a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause-brand-kit.zip">Brand kit SVG</a>
-</p>
+I wanted to enjoy a game without an ad taking over every few moments. So I built **Pause**: one button, clear choices, and no account to get in the way.
 
----
+It worked well for the games I tried. Now the app and its code are here for anyone to use, inspect and improve. — [Matteo](https://github.com/matteoawi)
 
-### Semplice da usare. Chiara su quello che fa.
+## A little more breathing room
 
-- **Un comando per iniziare.** Attiva la protezione o mettila in pausa dalla Home.
-- **Liste curate, aggiornate automaticamente.** StevenBlack e HaGeZi Normal già incluse. Le liste si aggiornano anche automaticamente mentre la protezione è attiva.
-- **Il risultato si vede.** Totale, attività di oggi, ultimi sette giorni e app di origine quando Android le identifica. I numeri contano richieste bloccate, non annunci rimossi.
-- **Come piace a te.** Italiano, inglese e spagnolo; tema chiaro, scuro o come il telefono. Animazioni dei contatori facoltative.
-- **Le opzioni al posto giusto.** Esclusioni e aiuto nelle impostazioni; regole sui domini e diagnostica in Avanzate.
+<table><tr>
+<td width="33%" align="center"><img src="docs/assets/screenshots/home-light.webp" width="230" alt="Home screen with protection controls and real request counts"></td>
+<td width="33%" align="center"><img src="docs/assets/screenshots/personalize-dark.webp" width="230" alt="Dark theme with language and appearance choices"></td>
+<td width="33%" align="center"><img src="docs/assets/screenshots/background-light.webp" width="230" alt="Guide to keep Pause running in the background"></td>
+</tr><tr><td align="center"><strong>One tap to start</strong></td><td align="center"><strong>Make it yours</strong></td><td align="center"><strong>Help when you need it</strong></td></tr></table>
 
-### Pronta in tre passaggi
+- **Turn it on and get back to it.** Protection runs while you use your apps.
+- **See what's happening.** Total blocks, today's activity, a weekly chart and app counts when Android can identify them.
+- **Updates itself.** Ad-blocking lists refresh automatically while protection is on.
+- **Your phone, your choices.** Light or dark, English/Italian/Spanish, and apps you can leave out of protection.
+- **Simple on the surface.** Extra controls stay in Advanced, ready if you need them.
 
-1. **Scarica e installa.** Apri [Pause.apk](https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk) sul telefono. Se Android lo richiede, consenti l’installazione alla fonte con cui hai aperto il file.
-2. **Consenti e attiva.** Leggi la breve spiegazione iniziale e accetta il permesso VPN nella schermata Android.
-3. **Torna al gioco.** Chiudilo completamente e riaprilo: gli annunci già scaricati potrebbero restare visibili. Per fermare il filtro, tocca **Metti in pausa**.
+Screenshots are from the app on an Android emulator. Counts measure blocked requests, **not individual ads removed**.
 
-**Per mantenerla attiva:** il tutorial include **Protezione in background**, disponibile anche nelle impostazioni. Spiega batteria e pulizia memoria, con indicazioni per Samsung, Xiaomi/Redmi/POCO, Pixel e altri Android. I collegamenti aprono le impostazioni del telefono; scegli tu cosa modificare. Se Android chiude Pause, filtro e aggiornamenti si fermano finché non riattivi la protezione.
+<details><summary>More screenshots: setup, settings and privacy</summary>
 
-> Pause usa un filtro DNS: alcuni annunci, comprese inserzioni integrate di YouTube e Instagram, possono restare. Anche i video premio possono essere bloccati.
+<p><img src="docs/assets/screenshots/setup-light.webp" width="230" alt="Getting started"><img src="docs/assets/screenshots/settings-light.webp" width="230" alt="Settings"><img src="docs/assets/screenshots/privacy-dark.webp" width="230" alt="Privacy details"></p>
 
-### Prima di scaricarla
+</details>
 
-**Perché chiede una VPN?**
+## Get started
 
-Serve a creare un filtro locale sul telefono. Il traffico ordinario dei giochi resta sulla tua connessione e non passa da un nostro server VPN. Android consente una sola VPN attiva: Pause sostituisce quella eventualmente già in uso. Non attivare l’opzione Android «Blocca connessioni senza VPN».
+1. **[Download the APK](https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk)** and open it on your Android phone. If asked, allow installation from the app you used to open it. Keep Android's security checks enabled.
+2. **Turn on protection.** Open Pause and accept Android's VPN prompt.
+3. **Go back to your apps.** Fully close and reopen your game; ads already downloaded may remain.
 
-**Quali dati usa?**
+The optional background guide helps with Samsung, Xiaomi/Redmi/POCO, Pixel and other phones. If Android closes Pause, protection and list updates stop until you turn it on again.
 
-Pause non ha analytics e non legge né decifra le connessioni HTTPS. Regole, esclusioni e statistiche restano sul telefono, escluse dai backup. Gli ultimi 30 domini bloccati restano solo in memoria. Non inviamo questi dati a un nostro server.
+To update the app, install the new official APK over your existing copy. Your settings and statistics stay. Share the [direct download link](https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk) or use **Settings → Share Pause**.
 
-Le richieste DNS consentite vengono inviate a **Cloudflare**, che può vedere i domini richiesti. Questo tratto DNS non è cifrato. Pause non serve a nascondere la tua identità o cambiare paese.
+## Your trust matters
 
-**Funziona con ogni annuncio?**
+| What you might wonder | The plain answer |
+| --- | --- |
+| Why a VPN prompt? | Pause uses Android's VPN permission to filter ad-related lookups **on your phone**. Games and browsing don't go through a Pause VPN server. |
+| Does Pause track me? | No analytics, account or ad SDKs. Rules and statistics stay on the device, outside backups. The last 30 blocked addresses stay in memory only. |
+| Can it read HTTPS content? | Pause does not decrypt HTTPS connections and doesn't request contacts, location, root or Accessibility access. |
+| Does anything leave my phone? | Allowed domain lookups go to **Cloudflare over unencrypted DNS**. Cloudflare and your network may see them. Lists download from GitHub over HTTPS. |
+| How do I trust an update? | Official APKs use the same release signing key. Android checks publisher continuity. The [release](https://github.com/matteoawi/Pause/releases/latest) includes a SHA-256 checksum. |
+| Is it independently audited? | No independent security audit. Public code and automated checks help review; they don't promise perfect security. |
 
-No. Annunci sul dominio del gioco, indirizzi IP diretti, DNS cifrato delle app e contenuti già scaricati possono superare il filtro. Se un’app non funziona o vuoi guardare un video premio, metti in pausa la protezione oppure escludi quell’app dalle impostazioni. La ricompensa dipende dal gioco.
+More detail: [security and privacy](SECURITY.md) · [build it yourself](BUILDING.md) · [source code](app/src/main) · [licenses](THIRD_PARTY_NOTICES.md).
 
-Nelle app ufficiali di **YouTube e Instagram**, annunci e contenuti possono usare la stessa infrastruttura: il DNS non può separarli. Aprire il sito con la sola VPN di Pause non basta; serve un filtro dei contenuti nel browser, separato da Pause.
+## Honest limits
 
-**Come aggiorno senza perdere i dati?**
+Pause helps with many separate ad services. It **cannot block every ad**. YouTube and Instagram's built-in ads may remain. Some games show an empty ad window, wait for an ad, or withhold a video reward.
 
-Installa il nuovo APK sopra quello esistente, senza disinstallare l’app. Le release ufficiali mantengono la stessa firma e conservano regole, esclusioni e statistiche, anche dalle precedenti versioni chiamate Pausa.
+If something stops working, pause protection or exclude that app in Settings. More technical exceptions are in Advanced.
 
-Le liste cercano aggiornamenti circa ogni 24 ore **mentre la protezione è attiva**, senza nuovi permessi o passaggi iniziali. Se un tentativo fallisce, Pause conserva la lista precedente e può riprovare dopo almeno 6 ore. Puoi sempre usare **Impostazioni → Aggiorna protezione**. Non è un aggiornamento garantito a un orario fisso.
+Android allows **one VPN at a time**. Don't enable “Block connections without VPN”: Pause only routes domain lookups. An app's own encrypted DNS, direct connections or cached content can bypass it. Pause doesn't hide your identity or change your country. Android 8+ only; no iPhone version.
 
-**Posso passarla a un amico?**
+## Open source, open to improvements
 
-Sì: condividi [questo download](https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk) oppure usa **Impostazioni → Condividi Pause**. L’app invia solo l’APK installato, senza le tue impostazioni o statistiche. Ogni persona autorizza la VPN sul proprio telefono.
+Read the [Android source](app/src/main), [build your own copy](BUILDING.md), or [report a problem](https://github.com/matteoawi/Pause/issues). Describe what you expected, what happened, your Android version and your Pause version. Keep personal browsing history and credentials out of public reports.
 
----
+Pause's original code is licensed under [GPL-3.0-only](LICENSE). Third-party materials retain their notices: [StevenBlack/hosts](https://github.com/StevenBlack/hosts), [HaGeZi Normal](https://github.com/hagezi/dns-blocklists), and [other attributions](THIRD_PARTY_NOTICES.md).
 
-<p align="center">
-  <strong>Meno interruzioni, con un gesto.</strong><br>
-  <a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk">Scarica Pause per Android</a>
-</p>
-
-<p align="center">
-  <sub>Liste incluse: <a href="https://github.com/StevenBlack/hosts">StevenBlack/hosts</a> e <a href="https://github.com/hagezi/dns-blocklists">HaGeZi Normal</a>. Licenze nell’app; <a href="filters/README.md">dati originali HaGeZi, GPLv3 e fonti</a> disponibili separatamente.</sub>
-</p>
+<p align="center"><strong>Give your apps a little Pause.</strong><br><a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk">Download for Android</a></p>

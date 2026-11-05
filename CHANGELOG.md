@@ -1,44 +1,44 @@
-# Changelog
+# What's new
 
-## 0.4.1 — 2026-10-29
-- Il tutorial iniziale spiega le limitazioni in background e come evitare che risparmio batteria e pulizia memoria interrompano Pause e gli aggiornamenti delle liste.
-- Guida facoltativa raggiungibile anche da Impostazioni e Aiuto, con istruzioni per Samsung, Xiaomi/Redmi/POCO e Pixel e indicazioni generali per gli altri Android. Tutorial rivedibile dalla guida.
-- Accesso alla scheda Android di Pause. Su Samsung, collegamento alle app mai in sospensione con ripiego sulla scheda dell’app se non disponibile. Nessuna modifica automatica o nuovo permesso.
-- Testi e novità aggiornati in italiano, inglese e spagnolo. Filtro DNS, aggiornamenti automatici, preferenze, regole e statistiche conservati; nessuna garanzia di ripristino automatico dopo la chiusura del processo.
+## 0.4.2 — November 5, 2026
 
-## 0.4.0 — 2026-10-29
-- Copertura DNS ampliata per giochi, app e navigazione: StevenBlack insieme a HaGeZi Normal, già incluse nell’APK. Lo snapshot produce 201.381 regole compatte e copre 163.267 domini HaGeZi prima non coperti; sono dati delle liste, non annunci rimossi.
-- Aggiornamenti automatici opportunistici mentre la VPN è attiva, dopo circa 24 ore dall’ultimo successo. In caso di errore nuovo tentativo non prima di 6 ore; aggiornamento manuale disponibile. Nessun nuovo allarme, permesso o passaggio nel setup.
-- Le due fonti devono essere entrambe valide prima della sostituzione atomica. Download falliti o incompleti conservano la lista precedente; la vecchia cache StevenBlack non riduce la nuova copertura inclusa.
-- Ricaricamento delle regole separato dal traffico DNS, con richieste accorpate e nuovi tentativi in caso di errore. Budget combinato di domini e caratteri per contenere i picchi di memoria.
-- Caricamento più leggero: i nomi ASCII non attraversano la conversione IDN e la lettura delle liste evita espressioni regolari per ogni riga. I domini internazionali restano supportati.
-- Aiuto e privacy in italiano, inglese e spagnolo spiegano i limiti DNS: nessuna promessa di rimozione delle inserzioni integrate di YouTube o Instagram, nemmeno aprendo il sito con la sola VPN.
-- Home, setup, temi, lingue, regole, esclusioni e statistiche conservati. Dati HaGeZi, licenza GPLv3 e metadati delle fonti disponibili separatamente nella distribuzione pubblica.
+- Clearer first steps, shorter home-screen explanations and simpler help in English, Italian and Spanish.
+- Privacy information remains explicit; technical connection details stay in Advanced.
+- Same filtering engine, automatic list updates, permissions, settings and saved statistics.
+- Public community launch: English README, app screenshots, GitHub Pages website and GPLv3 source with build and security documentation. Website version 1.0.0.
 
-## 0.3.0 — 2026-10-28
-- Pausa diventa **Pause**: nuovo simbolo, icona adattiva e monocromatica Android, wordmark originale e 22 icone SVG coordinate.
-- Interfaccia completa in italiano, inglese e spagnolo, con numeri, date, grafico, notifiche e messaggi localizzati. Lingua automatica o scelta manuale; integrazione con la lingua per app da Android 13.
-- **Personalizza** raccoglie lingua, aspetto automatico/chiaro/scuro e animazione del contatore. Nessun riavvio della VPN durante la personalizzazione.
-- **Condividi Pause** apre il menu Android con l’APK firmato installato, disponibile in sola lettura. Nessuna esportazione di impostazioni o statistiche.
-- Firma stabile, package invariato e aggiornamento che conserva dati, regole ed esclusioni. Tutte le lingue sono incluse e funzionano offline.
+## 0.4.1 — October 29, 2026
 
-## 0.2.0 — 2026-10-28
-- Nuova home: totale dei blocchi, conteggio di oggi, grafico degli ultimi 7 giorni e accesso rapido alle app di origine.
-- Attribuzione tramite Android quando disponibile; vecchi blocchi, UID condivisi e origini non certe restano separati. Nessuna stima dall’app in primo piano.
-- Primo avvio guidato con spiegazione del permesso VPN; notifiche facoltative configurabili a parte.
-- Regole, domini recenti e diagnostica in Avanzate. Rimossi riferimenti a giochi e dispositivi personali dalle schermate pubbliche.
-- Controlli nativi, navigazione Indietro e testi centralizzati in risorse italiane.
-- Statistiche aggregate locali, migrazione dei totali e salvataggio atomico. Aggiornamento della lista indipendente dalla rotazione dello schermo.
-- Corretto il comando Metti in pausa: chiude esplicitamente la VPN anche quando Android mantiene il servizio collegato.
+- Optional background-protection guide in setup, Settings and Help.
+- Samsung, Xiaomi/Redmi/POCO and Pixel guidance, plus general Android instructions.
+- Opens relevant phone settings without changing them automatically or requesting extra permissions.
 
-## 0.1.1 — 2026-10-28
-- Corretto il taglio del testo nelle schede con caratteri ingranditi: altezza adattiva e maggior spazio per le etichette.
-- Confermato dall'utente il buon funzionamento nel gioco della pizza su Xiaomi Android 16.
-- Aggiunta sonda di test separata: 10 controlli DNS reali superati. Nessun cambiamento al motore di filtro rispetto a 0.1.0.
+## 0.4.0 — October 29, 2026
 
-## 0.1.0 — 2026-10-28
-- Prima versione APK Android 8+: filtro DNS con VPN locale, senza root.
-- Lista StevenBlack inclusa, regole SDK giochi, aggiornamento manuale HTTPS.
-- Domini consentiti e bloccati, esclusioni per app, contatori e attività locale.
-- Avvio con autorizzazione Android e interruzione da notifica.
-- Copertura limitata dal DNS: nessuna promessa di eliminare ogni pubblicità o sbloccare premi.
+- StevenBlack and HaGeZi Normal lists included together.
+- Automatic list refresh about every 24 hours while protection runs; retries after at least 6 hours on failure.
+- Validated, atomic updates preserve the previous list on error, alongside personal rules and statistics.
+- Lower-allocation parsing and rule reloads independent from DNS traffic, with combined memory/download limits.
+
+## 0.3.0 — October 28, 2026
+
+- Pausa becomes Pause, with original branding and coordinated SVG icons.
+- English, Italian and Spanish; light/dark themes and personalization.
+- Share the installed APK through Android without sharing settings or statistics.
+
+## 0.2.0 — October 28, 2026
+
+- Public home screen with total blocks, today's activity, a weekly chart and app attribution when Android identifies it.
+- Short setup, optional notifications and technical controls under Advanced.
+- Local statistics and a corrected stop command that closes the VPN explicitly.
+
+## 0.1.1 — October 28, 2026
+
+- More adaptable labels for larger font sizes.
+
+## 0.1.0 — October 28, 2026
+
+- First local DNS ad blocker for Android 8+, without root.
+- Included lists, personal allow/block rules, app exclusions and manual HTTPS list updates.
+
+Counts are blocked DNS requests, not individual ads removed. There is no guarantee of universal blocking, uptime or removal of integrated YouTube/Instagram ads.

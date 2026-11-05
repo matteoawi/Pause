@@ -1,0 +1,17 @@
+# Additional advertising SDK domains. Do not add shared gameplay/CDN domains.
+applovin.com
+applvn.com
+adcolony.com
+vungle.com
+liftoff.io
+unityads.unity3d.com
+ads.unity3d.com
+ironsrc.com
+supersonicads.com
+ads.inmobi.com
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+ads.chartboost.com
+ads.tapjoy.com
+adservice.google.com
