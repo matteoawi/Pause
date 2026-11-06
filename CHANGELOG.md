@@ -1,5 +1,9 @@
 # What's new
 
+## Website 1.1.3 — November 6, 2026
+
+- Added a visible author credit linking to Matteo’s personal portfolio. Android 0.4.4, filtering and download statistics are unchanged.
+
 ## 0.4.4 · Website 1.1.2 — November 6, 2026
 
 - Encrypted DNS-over-HTTPS with platform certificate and server-identity checks, TLS 1.2/1.3 and no plaintext bootstrap or fallback. No redirects.
