@@ -34,7 +34,7 @@
     <string name="setup_local_body">Tus juegos y tu navegación usan tu conexión habitual. No pasan por un servidor VPN de Pause.</string>
     <string name="setup_vpn_title">Una VPN a la vez</string>
     <string name="setup_vpn_body">Si ya usas otra VPN, Android la sustituirá por Pause.</string>
-    <string name="setup_dns_body">Las consultas de direcciones permitidas van a Cloudflare sin cifrar. Los detalles están en Tu privacidad.</string>
+    <string name="setup_dns_body">Las consultas permitidas van a Cloudflare por una conexión cifrada. Cloudflare puede ver los dominios solicitados. Más detalles en Tu privacidad.</string>
     <string name="setup_start">Permitir y activar</string>
     <string name="background_title">Protección en segundo plano</string>
     <string name="background_summary">Ayuda a Pause a seguir activa mientras usas otras apps</string>
@@ -100,7 +100,7 @@
     <string name="privacy_data_title">Tus datos</string>
     <string name="privacy_data_body">Sin cuenta, suscripción ni análisis de uso. Pause no lee ni descifra el contenido de tus juegos o sitios web.</string>
     <string name="privacy_dns_title">Búsqueda de direcciones de Internet</string>
-    <string name="privacy_dns_body">Las solicitudes permitidas se envían a Cloudflare, que puede ver los dominios solicitados. Este tramo DNS no está cifrado. Pause no es una VPN para el anonimato o el cambio de país.</string>
+    <string name="privacy_dns_body">Las consultas permitidas van a Cloudflare por HTTPS con verificación del certificado, sin recurrir a DNS sin cifrar. Cloudflare puede ver los dominios y tu IP pública. La red aún puede deducir servicios a partir de IP y otro tráfico. Pause no oculta tu identidad ni cambia tu país.</string>
     <string name="privacy_storage_title">Qué se guarda en el teléfono</string>
     <string name="privacy_storage_body">Tus ajustes y estadísticas se quedan en el teléfono, fuera de las copias de seguridad. Las últimas 30 direcciones bloqueadas solo se guardan en memoria. Pause no sube estos datos.</string>
     <string name="privacy_update_title">Actualizaciones de protección</string>
@@ -134,7 +134,7 @@
     <string name="allowed_saved">Dominio permitido</string>
     <string name="about_body">Creada para mi teléfono. Compartida con todos. Pause ayuda a reducir los anuncios, sin cuenta ni suscripción.</string>
     <string name="whats_new">Novedades</string>
-    <string name="whats_new_body">Pasos más claros para vídeos de recompensa: pausa, mira el vídeo y activa la protección de nuevo. La ayuda explica cómo reabrir el juego tras activarla. Tus ajustes y actualizaciones automáticas siguen igual.</string>
+    <string name="whats_new_body">DNS cifrado activado de serie. Las consultas permitidas usan HTTPS con verificación del certificado, sin alternativa sin cifrar. Se mantienen el inicio sencillo, tus ajustes y las actualizaciones de listas.</string>
     <string name="licenses">Licencias y fuentes</string>
     <string name="licenses_summary">StevenBlack, HaGeZi Normal y licencias de las listas</string>
     <string name="licenses_note">StevenBlack conserva las atribuciones de sus fuentes. HaGeZi Normal se distribuye como datos separados con licencia GPLv3; la fuente original y la licencia están disponibles en github.com/matteoawi/Pause/tree/master/filters.</string>

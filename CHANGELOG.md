@@ -1,5 +1,12 @@
 # What's new
 
+## 0.4.4 · Website 1.1.2 — November 6, 2026
+
+- Encrypted DNS-over-HTTPS with platform certificate and server-identity checks, TLS 1.2/1.3 and no plaintext bootstrap or fallback. No redirects.
+- If encrypted DNS cannot connect, lookups fail instead of downgrading. Pause protection to restore your phone’s normal connection.
+- Clearer setup and privacy in English, Italian and Spanish, plus updated website/security information. Cloudflare can still see domains and your public IP; Pause does not make browsing anonymous.
+- Same local filtering, automatic lists, permissions, personal settings and statistics.
+
 ## Website 1.1.1 — November 6, 2026
 
 - Added a live official-APK download total from public GitHub release assets, excluding brand kits, checksums and preview releases. Counts downloads, including updates/repeats, not installations or people.

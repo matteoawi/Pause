@@ -10,10 +10,14 @@ Pause does not decrypt HTTPS or install a certificate. It doesn't require root, 
 
 ## What leaves your phone
 
-- Allowed lookups go to Cloudflare (`1.1.1.1` / `1.0.0.1`, with IPv6 equivalents), over **unencrypted DNS**. Cloudflare and the network can observe them. This isn't an anonymity service.
+- Since **0.4.4**, allowed lookups go to Cloudflare (`1.1.1.1` / `1.0.0.1`, with IPv6 equivalents) over **DNS-over-HTTPS on port 443**. TLS 1.2/1.3 uses platform system trust and server-identity checks. Literal IP endpoints avoid a plaintext DNS bootstrap. Requests use POST, do not follow redirects and never fall back to plaintext DNS. Cloudflare can see the queried domains and your public IP; see its [resolver privacy policy](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/). Older Pause versions used unencrypted DNS: install the new APK to get this change.
 - StevenBlack and HaGeZi Normal lists download from GitHub over HTTPS. GitHub receives normal connection metadata.
 - No analytics or account system. Pause does not upload statistics or custom rules.
 - The static website uses GitHub Pages, with no analytics, forms, cookies set by Pause or external font requests. Its download counter reads the public GitHub Releases API without credentials or a visitor identifier; GitHub receives normal connection metadata. A ten-minute tab-local sessionStorage cache stores only the total and check time. GitHub may process ordinary hosting/API logs under its own policies.
+
+Encryption protects this DNS transport against observers on the network path. It does **not** hide destination IPs or all traffic metadata, encrypt other apps’ HTTP, or cover excluded apps and apps using their own resolvers. A Wi-Fi operator or ISP may still infer services. Blocking a request stops that connection to the ad service; it does not erase data already shared or remove the need to trust the resolver. Pause is an additional app with VPN access and software risk, not a guarantee of zero additional risk.
+
+If HTTPS, certificate checks or all resolver endpoints fail, Pause returns a DNS failure (SERVFAIL). It does not quietly downgrade. This can prevent new connections until the network recovers or you pause protection; pausing restores the phone’s normal DNS behavior. Response sizes, worker count, queue and connection/read timeouts are bounded; active resolver sockets close when protection stops.
 
 ## What stays on your phone
 

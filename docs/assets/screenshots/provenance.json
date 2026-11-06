@@ -21,25 +21,11 @@
     "sha256": "a1e04d7cd666ffb5bedd23f27195c57a551d58b4bafe3cded2a0988f66cbb040"
   },
   {
-    "asset": "assets/screenshots/setup-light.webp",
-    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
-    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
-    "originalSha256": "f1db0ccb734eed26bbc245217295af9a28c5e9ec50cf3b5fb1d9e49faa4ba113",
-    "sha256": "82a9bff48ff39327a14910cfce004bdf0a5fa8ad326f9cbe9e3ea4f9fd8f5a99"
-  },
-  {
     "asset": "assets/screenshots/settings-light.webp",
     "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
     "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
     "originalSha256": "573474cc93d0e0b80cc48db2a96cd3ea40ac49ccff3408ab7310f735688a665f",
     "sha256": "1b60476d5956b9c69dab397062d2f41933429cac4fb4a190a479ab7a989cc992"
-  },
-  {
-    "asset": "assets/screenshots/privacy-dark.webp",
-    "source": "Pause 0.4.2 release / Android 16 emulator-5580 / English",
-    "transform": "Crop system status/navigation bars only; resize to 432 x 922, WebP quality 88. No app pixels or counts edited.",
-    "originalSha256": "18ab25171020641835af37a768c3bed240dbbe0a24041f806f6d90bbc3cb39cc",
-    "sha256": "42aa774594776f70b5993f2377379ecc64647bcc47991aacd33cf9f5fa1f1c85"
   },
   {
     "asset": "assets/screenshots/home-real-dark.webp",

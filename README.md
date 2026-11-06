@@ -4,7 +4,7 @@
 <p align="center">A simple, free ad blocker for Android.<br>Turn it on. Get back to your games, apps and browsing.</p>
 
 <p align="center"><a href="https://github.com/matteoawi/Pause/releases/latest/download/Pause.apk"><img src="https://img.shields.io/badge/Download_Pause-Android_APK-176B53?style=for-the-badge&amp;labelColor=122F25" height="42" alt="Download Pause for Android"></a></p>
-<p align="center"><strong>Android 8+ · Version 0.4.3 · Free &amp; open source</strong><br>No account. No subscription. No root.</p>
+<p align="center"><strong>Android 8+ · Version 0.4.4 · Free &amp; open source</strong><br>No account. No subscription. No root.</p>
 <p align="center"><a href="https://matteoawi.github.io/Pause/">Visit the website</a> · <a href="https://github.com/matteoawi/Pause/releases/latest">Release notes &amp; checksum</a> · <a href="#get-started">Get started</a> · <a href="SECURITY.md">Security</a></p>
 
 ## Made for my own phone. Shared for yours.
@@ -29,9 +29,9 @@ It worked well for the games I tried. Now the app and its code are here for anyo
 
 The home screenshot was shared by a real user; the other screens come from an Android emulator. Counts measure blocked requests, **not individual ads removed**. These are one person’s results, not a guarantee for every device.
 
-<details><summary>More screenshots: setup, settings and privacy</summary>
+<details><summary>More app screens</summary>
 
-<p><img src="docs/assets/screenshots/setup-light.webp" width="230" alt="Getting started"><img src="docs/assets/screenshots/settings-light.webp" width="230" alt="Settings"><img src="docs/assets/screenshots/privacy-dark.webp" width="230" alt="Privacy details"></p>
+<p><img src="docs/assets/screenshots/home-light.webp" width="230" alt="Light theme home"><img src="docs/assets/screenshots/settings-light.webp" width="230" alt="Settings"></p>
 
 </details>
 
@@ -54,9 +54,11 @@ To update the app, install the new official APK over your existing copy. Your se
 | Why a VPN prompt? | Pause uses Android's VPN permission to filter ad-related lookups **on your phone**. Games and browsing don't go through a Pause VPN server. |
 | Does Pause track me? | No analytics, account or ad SDKs. Rules and statistics stay on the device, outside backups. The last 30 blocked addresses stay in memory only. |
 | Can it read HTTPS content? | Pause does not decrypt HTTPS connections and doesn't request contacts, location, root or Accessibility access. |
-| Does anything leave my phone? | Allowed domain lookups go to **Cloudflare over unencrypted DNS**. Cloudflare and your network may see them. Lists download from GitHub over HTTPS. |
+| Does anything leave my phone? | Allowed domain lookups go to **Cloudflare over encrypted HTTPS**, with certificate checks and no unencrypted fallback. Cloudflare can see domains and your public IP. Lists download from GitHub over HTTPS. |
 | How do I trust an update? | Official APKs use the same release signing key. Android checks publisher continuity. The [release](https://github.com/matteoawi/Pause/releases/latest) includes a SHA-256 checksum. |
 | Is it independently audited? | No independent security audit. Public code and automated checks help review; they don't promise perfect security. |
+
+Encryption protects the DNS requests handled by Pause on their way to Cloudflare. It does not make browsing anonymous: your network can still infer services from destination IPs and other traffic. Excluded apps and apps using their own DNS are outside this path. If encrypted DNS is unavailable, lookups fail rather than switching to plaintext. Install the new APK to get this change; older versions used unencrypted DNS.
 
 More detail: [security and privacy](SECURITY.md) · [build it yourself](BUILDING.md) · [source code](app/src/main) · [licenses](THIRD_PARTY_NOTICES.md).
 

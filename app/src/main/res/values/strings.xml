@@ -34,7 +34,7 @@
     <string name="setup_local_body">Your games and browsing stay on your normal connection. They do not go through a Pause VPN server.</string>
     <string name="setup_vpn_title">One VPN at a time</string>
     <string name="setup_vpn_body">If you already use another VPN, Android will replace it with Pause.</string>
-    <string name="setup_dns_body">Allowed address lookups go to Cloudflare without encryption. Read Privacy for the details.</string>
+    <string name="setup_dns_body">Allowed address lookups go to Cloudflare over an encrypted connection. Cloudflare can see the requested domains. Read Privacy for details.</string>
     <string name="setup_start">Allow and turn on</string>
     <string name="background_title">Background protection</string>
     <string name="background_summary">Help Pause stay on while you use other apps</string>
@@ -100,7 +100,7 @@
     <string name="privacy_data_title">Your data</string>
     <string name="privacy_data_body">No account, subscription or analytics. Pause does not read or decrypt the content of your games or websites.</string>
     <string name="privacy_dns_title">Looking up internet addresses</string>
-    <string name="privacy_dns_body">Allowed requests are forwarded to Cloudflare, which can see the requested domains. This DNS connection is not encrypted. Pause is not a VPN for anonymity or changing your location.</string>
+    <string name="privacy_dns_body">Allowed lookups go to Cloudflare over HTTPS with certificate checks, without falling back to unencrypted DNS. Cloudflare can see the domains and your public IP. Your network may still infer services from IP addresses and other traffic. Pause does not hide your identity or change your location.</string>
     <string name="privacy_storage_title">What stays on your phone</string>
     <string name="privacy_storage_body">Your settings and statistics stay on your phone, outside backups. The last 30 blocked addresses stay in memory only. Pause does not upload this data.</string>
     <string name="privacy_update_title">Protection updates</string>
@@ -134,7 +134,7 @@
     <string name="allowed_saved">Domain allowed</string>
     <string name="about_body">Built for my own phone. Shared with everyone. Pause helps reduce ads without an account or subscription.</string>
     <string name="whats_new">What is new</string>
-    <string name="whats_new_body">Clearer steps for reward videos: pause protection, watch, then turn it back on. Help also explains reopening games after activation. Your settings and automatic list updates stay the same.</string>
+    <string name="whats_new_body">Encrypted DNS is now on by default. Allowed lookups use HTTPS with certificate checks and no unencrypted fallback. Same simple setup, personal settings and automatic list updates.</string>
     <string name="licenses">Licenses and sources</string>
     <string name="licenses_summary">StevenBlack, HaGeZi Normal and list licenses</string>
     <string name="licenses_note">StevenBlack keeps its source attributions. HaGeZi Normal is distributed as separate list data under GPLv3; original source and license are available at github.com/matteoawi/Pause/tree/master/filters.</string>

@@ -4,7 +4,7 @@ This repository includes the current Android source, resources, tests, Gradle wr
 
 ## Requirements
 
-- JDK 17+ (releases use JBR 21).
+- Full JDK 17+, including `keytool` for the loopback TLS tests (releases use JBR 21).
 - Android SDK platform 36 and the build tools requested by Gradle.
 - Internet for dependencies on the first build.
 
@@ -47,3 +47,7 @@ Unit tests cover DNS packets, IPv4/IPv6, TCP sessions, rule precedence, list val
 Snapshots and attributions are in `app/src/main/assets/`. Original HaGeZi data is also supplied separately in `filters/`. Runtime refresh is implemented; routine list changes don't require a new APK.
 
 Original Pause code is GPL-3.0-only. See [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md). No byte-for-byte reproducible-build claim is made for the official signed APK.
+
+## Encrypted DNS checks
+
+The unit suite includes real loopback TLS servers to check certificate trust, server identity, redirects, DNS response bounds, timeouts and cancellation. Test certificates are generated temporarily with the JDK `keytool`; no test or release private key is shipped in the repository. These JVM checks complement Android integration and do not prove compatibility with every network or device.
