@@ -11,3 +11,4 @@
 @media(max-width:760px){.extra-screens{gap:12px}.extra-screens img{border-radius:7px}}
 
 .screens>figure,.screen-panel img{min-width:0}
+.download-stat{display:flex;align-items:center;flex-wrap:wrap;gap:5px 8px;margin-top:15px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}.download-stat svg{width:17px;height:17px;flex-shrink:0;color:var(--green)}.download-stat [data-download-count]{font-weight:750;color:var(--green)}.download-stat a{white-space:nowrap}

@@ -13,7 +13,7 @@ Pause does not decrypt HTTPS or install a certificate. It doesn't require root, 
 - Allowed lookups go to Cloudflare (`1.1.1.1` / `1.0.0.1`, with IPv6 equivalents), over **unencrypted DNS**. Cloudflare and the network can observe them. This isn't an anonymity service.
 - StevenBlack and HaGeZi Normal lists download from GitHub over HTTPS. GitHub receives normal connection metadata.
 - No analytics or account system. Pause does not upload statistics or custom rules.
-- The static website uses GitHub Pages, with no analytics, forms, cookies set by Pause or external font requests. GitHub may process ordinary hosting logs under its own policies.
+- The static website uses GitHub Pages, with no analytics, forms, cookies set by Pause or external font requests. Its download counter reads the public GitHub Releases API without credentials or a visitor identifier; GitHub receives normal connection metadata. A ten-minute tab-local sessionStorage cache stores only the total and check time. GitHub may process ordinary hosting/API logs under its own policies.
 
 ## What stays on your phone
 

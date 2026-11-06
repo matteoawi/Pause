@@ -1,5 +1,10 @@
 # What's new
 
+## Website 1.1.1 — November 6, 2026
+
+- Added a live official-APK download total from public GitHub release assets, excluding brand kits, checksums and preview releases. Counts downloads, including updates/repeats, not installations or people.
+- No analytics or click tracking; ten-minute tab cache. The download remains available when statistics cannot load. Android app stays at 0.4.3.
+
 ## 0.4.3 — November 5, 2026
 
 - Clearer reward-video steps: pause protection, watch, then turn it back on.
